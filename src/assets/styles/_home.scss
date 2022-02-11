@@ -1,0 +1,23 @@
+.home-page{
+    position: relative;
+    height:100vh;
+    background:url('../images/pixels-dark.svg');
+
+    .main-screen{
+        border: 2px solid black;
+    }
+}
+
+//header
+
+.home-icon{
+    line-height: 1;
+
+}
+
+//main content
+
+.main-content{
+    padding: 10px;
+    position: relative;
+}

@@ -1,0 +1,81 @@
+@mixin line-header {
+  background-color: black;
+  height: 1px;
+  margin-bottom: 4px;
+  padding: 0;
+  position: relative;
+  display: block;
+
+  &:last-child{
+      margin-bottom:0
+  }
+}
+
+@mixin line-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.section-title {
+  width: 100%;
+  background-color: white;
+  position: relative;
+  border-bottom: 1px solid;
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .section-line-left,
+    .section-line-right {
+      @include line-section;
+      i {
+        @include line-header;
+      }
+    }
+
+    .section-line-left{
+        &::before{
+            content: '';
+            border: 1px solid black;
+            background:white;
+            position: absolute;
+            width:35px;
+            height:35px;
+            left:20px;
+            z-index:2;
+        }
+    }
+
+    .section-line-right{
+        &::after{
+            content: '';
+            border: 1px solid black;
+            background:white;
+            position: absolute;
+            width:35px;
+            height:35px;
+            right:20px;
+            z-index:2;
+        }
+    }
+
+
+  }
+
+  &-text {
+    width: 100%;
+    text-align: center;
+    h2 {
+      font-size: 20px;
+      margin: 0;
+      padding: 13px;
+      position: relative;
+      background-color: white;
+    }
+  }
+}
