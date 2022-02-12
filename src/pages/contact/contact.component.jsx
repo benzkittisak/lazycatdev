@@ -40,7 +40,7 @@ const ContactPage = () => {
           </InfoTitle>
 
           <InfoTitle title="แผนที่">
-            <ContactMap/>
+            <ContactMap />
           </InfoTitle>
         </div>
       </div>
