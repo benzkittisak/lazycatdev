@@ -2,7 +2,7 @@
   position: relative;
   height: 100vh;
   background: url("../images/pixels-dark.svg");
-  overflow: hidden;
+
   .main-screen {
     border: 2px solid black;
   }
@@ -18,7 +18,6 @@
 
 .main-content {
   padding: 20px 10px;
-
   &-block {
     border: 1px solid;
     padding: 20px;

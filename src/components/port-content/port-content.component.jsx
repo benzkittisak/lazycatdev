@@ -16,7 +16,7 @@ const PortContent = ({data}) => {
                 ) : null}
 
                 {data.github ? (
-                  <a href={data.github} class="github" target="_blank">
+                  <a href={data.github} className="github" target="_blank">
                     GitHub
                   </a>
                 ) : null}

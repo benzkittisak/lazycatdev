@@ -43,7 +43,7 @@ const ResumePage = () => {
                 <InfoTitle title="ประวัติการศึกษา">
                   <ul className="edu-section-container">
                     {EDUCATION_BACKGROUND.map((item) => (
-                      <Education item={item}/>
+                      <Education key={item.id} item={item}/>
                     ))}
                   </ul>
                 </InfoTitle>

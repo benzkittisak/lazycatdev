@@ -1,0 +1,47 @@
+@media (max-width:480px){
+    .home-page{
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width:720px){
+    .home-page{
+        overflow-y: scroll;
+
+        .main-content-block{
+            display: block;
+
+            .block-header{
+                width: 100%;
+            }
+            .block-image {
+                display: block;
+                padding: 10px;
+                width: 20% !important;
+                svg , img {
+                    display: block;
+                    width: 100% !important;
+                }
+
+                &.hover{
+                    
+                    svg , img {
+                        width: 100% !important;
+                    }
+
+                    .block-hover{
+                        top: 50% !important;
+                        width: 200px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .about-me , .resume-page , .portfolio-page , .contact-page{
+        width: 90%;
+    }
+
+   
+}

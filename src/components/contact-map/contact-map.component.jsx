@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactMap = () => {
   return (
-    <div class="mapouter">
-      <div class="gmap_canvas">
+    <div className="mapouter">
+      <div className="gmap_canvas">
         <iframe
           title="Google Maps"
           width="100%"
