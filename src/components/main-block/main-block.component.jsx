@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import { ReactComponent as ComputerIcon } from "../../assets/images/pixel-computer.svg";
 import { ReactComponent as PlantIcon } from "../../assets/images/pixel-plant.svg";
