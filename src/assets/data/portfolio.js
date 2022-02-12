@@ -36,7 +36,7 @@ const PORTFOLIO_DATA = [
     title: "เว็บไซต์หาที่เที่ยว",
     desc: "ด้วยความที่เบื่อการสร้างเว็บไซต์ที่เป็นร้านค้า เลยอยากทำอะไรที่แปลกใหม่สำหรับตัวเองบ้างและด้วยความที่ตัวเองไม่ได้ออกไปเที่ยวที่ไหนเลย เลยคิดว่าทำเว็บหาที่เที่ยวคงจะดีเลยเป็นที่มาของเว็บไซต์นี้",
     images: "https://i3.fpic.cc/file/img-b1/2022/02/12/Screen-Shot-2565-02-12-at-21.53.14.md.png",
-    link_url: "",
+    link_url: "https://bbgun-travel.herokuapp.com",
     github: "https://github.com/benzkittisak/tracos.git",
   },
   {
