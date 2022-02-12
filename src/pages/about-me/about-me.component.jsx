@@ -28,7 +28,7 @@ const AboutMe = () => {
     >
       <div className="about-me" id="about-me">
         <div className="drag-close">
-          <button onClick={handleClick}>x</button>
+          <button onClick={() => handleClick()}>x</button>
         </div>
         <div className="handle">
           <SectionTitle title="เกี่ยวกับฉัน" />

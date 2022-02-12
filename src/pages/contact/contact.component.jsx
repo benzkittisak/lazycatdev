@@ -28,7 +28,7 @@ const ContactPage = () => {
     >
       <div className="contact-page" id="contact">
         <div className="drag-close">
-          <button onClick={handleClick}>x</button>
+          <button onClick={() => handleClick()}>x</button>
         </div>
         <div className="handle">
           <SectionTitle title="ติดต่อ" />
