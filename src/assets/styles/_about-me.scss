@@ -1,3 +1,98 @@
-.about-me{
-    padding:20px ;
+.about-me {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  overflow: hidden;
+  background: white;
+  z-index: 999;
+  border: 2px solid;
+  box-shadow: 3px 3px 0 black;
+
+  .handle {
+    cursor: grab;
+  }
+
+  &.active {
+    display: block;
+  }
+
+  .drag-close {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+
+    button {
+      background: none;
+      border: none;
+    }
+  }
+
+  .about-container {
+    padding: 20px;
+    position: relative;
+    overflow-y: scroll;
+    height: 500px;
+
+    .about-profile {
+      display: block;
+      position: relative;
+      text-align: center;
+      img {
+        padding: 15px;
+        border-radius: 50%;
+        border: 1px solid;
+      }
+    }
+
+    .about-header {
+      padding: 10px;
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .about-info {
+      p {
+        line-height: 25px;
+        letter-spacing: 1px;
+      }
+
+      &-title {
+        h5 {
+          font-weight: 600;
+          margin-top: 15px;
+          border-bottom: 1px solid;
+          padding-bottom: 15px;
+          padding-top: 15px;
+        }
+        ul{
+            padding-top: 15px;
+
+            li.edu-section{
+                list-style-type: none;
+                text-align: left;
+                margin-bottom: 30px;
+
+                span.edu-year{
+                    padding: 5px 40px;
+                    background-color:black;
+                    color: white;
+                    text-align: left;
+                }
+
+                h4.edu-title{
+                    padding: 14px 0;
+                    margin: 0;
+                    font-weight: bolder;
+                }
+            }
+        }
+      }
+    }
+  }
 }

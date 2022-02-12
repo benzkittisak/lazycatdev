@@ -52,6 +52,8 @@
     }
 
     .section-line-right{
+      position: relative;
+
         &::after{
             content: '';
             border: 1px solid black;
@@ -62,6 +64,8 @@
             right:20px;
             z-index:2;
         }
+
+        
     }
 
 

@@ -1,23 +1,111 @@
-.home-page{
-    position: relative;
-    height:100vh;
-    background:url('../images/pixels-dark.svg');
-
-    .main-screen{
-        border: 2px solid black;
-    }
+.home-page {
+  position: relative;
+  height: 100vh;
+  background: url("../images/pixels-dark.svg");
+  overflow: hidden;
+  .main-screen {
+    border: 2px solid black;
+  }
 }
 
 //header
 
-.home-icon{
-    line-height: 1;
-
+.home-icon {
+  line-height: 1;
 }
 
 //main content
 
-.main-content{
-    padding: 10px;
+.main-content {
+  padding: 20px 10px;
+
+  &-block {
+    border: 1px solid;
+    padding: 20px;
     position: relative;
+    display: flex;
+    box-shadow: 3px 3px 0 rgba($color: #000000, $alpha: 1);
+
+    .block-header {
+      position: relative;
+      width: 75%;
+
+      .block-title {
+        h4 {
+          font-style: bolder !important;
+        }
+      }
+
+      .block-sub-title {
+        color: #9b9b9b;
+      }
+    }
+
+    .block-image {
+      width: 25%;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &.hover {
+        display: block;
+        transform: translateY(0);
+        transition: 0.3s all ease-in-out;
+
+        svg , img {
+          opacity: 1;
+          transition: 0.3s all ease-in-out;
+          transform: translateY(0)
+        }
+
+        &:hover {
+          svg , img {
+            transform: translateY(-20px);
+            opacity: 0;
+          }
+
+          .block-hover {
+            display: block;
+            transform: translateY(-20px);
+          }
+        }
+
+        .block-hover {
+          display: none;
+          position: absolute;
+          top: 50%;
+          transform: translateY(0);
+          padding: 10px 20px;
+          border: 1px solid;
+          cursor: pointer;
+
+          &:hover {
+            background: black;
+            a , button {
+              color: white;
+            }
+          }
+          a , button {
+            text-decoration: none;
+            color: black;
+            width: 100%;
+            transition: 0.4s ease-in-out;
+            background: none;
+            border: none;
+          }
+        }
+      }
+
+      svg , img {
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        line-height: 1;
+      }
+    }
+  }
 }
