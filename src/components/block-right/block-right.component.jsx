@@ -9,6 +9,11 @@ const BlockRight = () => {
     aboutObject.style.display = 'block'
   }
 
+  const togglePortfolio = () => {
+    const aboutObject = document.querySelector('#portfolio')
+    aboutObject.style.display = 'block'
+  }
+
   return (
     <div className="col-lg-6">
       <div className="main-content">
@@ -47,6 +52,7 @@ const BlockRight = () => {
               direction="row"
               icon_url=""
               hover
+              handleClick={togglePortfolio}
             />
           </div>
 

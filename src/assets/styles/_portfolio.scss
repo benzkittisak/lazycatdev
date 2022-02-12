@@ -1,3 +1,11 @@
+@mixin btn_portfolio {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 5px 15px;
+  transition: all 0.4s ease-in-out;
+}
+
 .portfolio-page {
   display: none;
   position: absolute;
@@ -19,5 +27,52 @@
     position: relative;
     overflow-y: scroll;
     height: 500px;
+
+    .port-content-list {
+      position: relative;
+      display: block;
+      margin-bottom: 30px;
+
+      p {
+        letter-spacing: 1px;
+      }
+    }
+
+    .port-content-link {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-start;
+
+      a {
+        @include btn_portfolio;
+        border: 1px solid;
+        &:hover {
+          background: black;
+          color: white;
+        }
+
+        &.github {
+          border: 1px solid #4f4f81;
+
+          &:hover {
+            background: #4f4f81;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .btn-box {
+      display: inline-block;
+        
+      .btn-github {
+        @include btn_portfolio;
+        border: 1px solid #4f4f81;
+        &:hover {
+          background: #4f4f81;
+          color: white;
+        }
+      }
+    }
   }
 }
