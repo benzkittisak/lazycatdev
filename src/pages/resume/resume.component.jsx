@@ -2,10 +2,11 @@ import React from "react";
 import Draggable from "react-draggable";
 
 import EDUCATION_BACKGROUND from "../../assets/data/education-background";
-import INTERN_DATA from "../../assets/data/intern";
 
 import SectionTitle from "../../components/section-title/section-title.component";
 import InfoTitle from "../../components/info-title/info-title.component";
+import Intern from "../../components/intern/intern.component";
+import Education from "../../components/education/education.component";
 
 const ResumePage = () => {
   const toggleResume = () => {
@@ -42,11 +43,7 @@ const ResumePage = () => {
                 <InfoTitle title="ประวัติการศึกษา">
                   <ul className="edu-section-container">
                     {EDUCATION_BACKGROUND.map((item) => (
-                      <li key={item.id} className="edu-list">
-                        <span className="edu-year">{item.year}</span>
-                        <h4 className="edu-title">{item.title}</h4>
-                        <p className="text-muted">{item.subtitle}</p>
-                      </li>
+                      <Education item={item}/>
                     ))}
                   </ul>
                 </InfoTitle>
@@ -58,23 +55,7 @@ const ResumePage = () => {
                 <InfoTitle title="ประวัติการเข้าฝึกงาน" />
               </div>
               <div className="col-lg-12">
-                <div className="work-history">
-                  {INTERN_DATA.map((data) => (
-                    <div className="work-history-container" key={data.id}>
-                       
-                      <div className="work-histor-title">
-                      <span className="work-year">{data.year}</span>
-                        <h5>{data.title}</h5>
-                        <p className="desc text-muted">{data.desc}</p>
-                      </div>
-                      <div className="work-history-image">
-                        {data.image.map((img, index) => (
-                          <img key={index} src={img} alt="" />
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                <Intern/>
               </div>
             </div>
           </div>

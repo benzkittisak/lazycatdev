@@ -70,20 +70,6 @@ const AboutMe = () => {
                       ))}
                     </ul>
                   </InfoTitle>
-
-                  {/* <InfoTitle title="ประวัติการศึกษา">
-                    <ul>
-                      {EDUCATION_BACKGROUND.map((item) => (
-                        <li className="edu-section" key={item.id}>
-                          <span className="edu-year">{item.year}</span>
-                          <h4 className="edu-title">{item.title}</h4>
-                          <p>
-                            {item.subtitle}
-                          </p>
-                        </li>
-                      ))}
-                    </ul>
-                  </InfoTitle> */}
                 </div>
               </div>
             </div>
