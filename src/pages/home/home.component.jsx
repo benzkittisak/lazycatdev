@@ -2,10 +2,12 @@ import React from "react";
 
 import BlockLeft from "../../components/block-left/block-left.component";
 import BlockRight from "../../components/block-right/block-right.component";
-
 import Header from "../../components/header/header.component";
 import SectionTitle from "../../components/section-title/section-title.component";
+
+
 import AboutMe from "../about-me/about-me.component";
+import ResumePage from "../resume/resume.component";
 
 
 const HomePage = () => {
@@ -24,6 +26,7 @@ const HomePage = () => {
       </div>
 
       <AboutMe/>
+      <ResumePage/>
     </div>
   );
 };

@@ -96,13 +96,13 @@ const MainBlock = ({
         ) : null}
 
         {hover ? (
-          <div className="block-hover">
+          <div className="block-hover" style={{top: image=== 'port' ? '25%' : ''}}>
             {a_link ? (
               <a href={icon_url} className="block-hover-link">
                 ข้อมูลเพิ่มเติม
               </a>
             ) : (
-              <button onClick={handleClick} to="#" className="block-hover-link">
+              <button onClick={handleClick}  to="#" className="block-hover-link">
                 ข้อมูลเพิ่มเติม
               </button>
             )}

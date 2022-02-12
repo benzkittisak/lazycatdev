@@ -1,15 +1,65 @@
-@import './variable';
+@import "./variable";
 
-
-.h-20{
-    height:20px;
+.h-20 {
+  height: 20px;
 }
-.w-20{
-    width:20px;
+.w-20 {
+  width: 20px;
 }
 
+.drag-close {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  z-index: 9999;
+  margin: 0;
+  padding: 0;
 
+  button {
+    background: none;
+    border: none;
+  }
+}
+.about-info {
+  p {
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
 
-@import './about-me';
-@import './home';
-@import './title';
+  &-title {
+    h5 {
+      font-weight: 600;
+      margin-top: 15px;
+      border-bottom: 1px solid;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+    ul {
+      padding-top: 15px;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@import "./about-me";
+@import "./home";
+@import "./title";
+@import "./resume";

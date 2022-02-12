@@ -8,8 +8,8 @@ const BlockRight = () => (
       <div className="row">
         <div className="col-lg-6 mb-4">
           <MainBlock
-            title="สร้างโดย"
-            subtitle="React , SCSS , HTML , JS "
+            title="ทักษะ"
+            subtitle="ดูได้จากผลงานที่เคยๆทำ มาเลยครับ"
             image="cheat"
             justify="space-between"
             direction="column"

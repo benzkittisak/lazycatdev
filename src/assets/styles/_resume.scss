@@ -1,0 +1,89 @@
+.resume-page {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  overflow: hidden;
+  background: white;
+  z-index: 999;
+  border: 2px solid;
+  box-shadow: 3px 3px 0 black;
+
+  .handle {
+    cursor: grab;
+  }
+
+  .resume-container {
+    padding: 20px;
+    position: relative;
+    overflow-y: scroll;
+    height: 500px;
+
+    ul.edu-section-container {
+      padding-top: 15px;
+
+      li.edu-list {
+        list-style-type: none;
+        text-align: left;
+        margin-bottom: 30px;
+
+        span.edu-year {
+          padding: 5px 40px;
+          background-color: black;
+          color: white;
+          text-align: left;
+        }
+
+        h4.edu-title {
+          padding: 14px 0;
+          margin: 0;
+          font-weight: bolder;
+        }
+      }
+    }
+
+    .work-history {
+      &-container {
+        gap: 20px;
+        display: flex;
+        flex: 0 0 auto;
+        justify-content: space-between;
+
+        .work-histor-title {
+          position: relative;
+          display: block;
+          width: 50%;
+
+          h5{
+              font-weight: bolder;
+              letter-spacing:1px;
+          }
+
+          p.desc{
+              padding-top:15px;
+              line-height:25px;
+              letter-spacing:.5px;
+          }
+
+          span.work-year{
+              background-color:black;
+              color: white;
+              padding: 5px 20px;
+              display: inline-block;
+              margin-bottom: 15px;
+          }
+        }
+        .work-history-image{
+            width: 50%;
+            display: block;
+
+            img{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+      }
+    }
+  }
+}

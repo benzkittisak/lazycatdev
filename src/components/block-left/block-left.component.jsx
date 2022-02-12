@@ -15,6 +15,11 @@ const BlockLeft = () => {
     aboutObject.style.display = 'block'
   }
 
+  const toggleResume = () => {
+    const aboutObject = document.querySelector('#resume')
+    aboutObject.style.display = 'block'
+  }
+
   return (
     <div className="col-lg-6">
       <div className="main-content">
@@ -45,13 +50,15 @@ const BlockLeft = () => {
           <div className="col-lg-6 mb-4">
             <MainBlock
               title="เรซูเม่"
-              subtitle="ผลงานต่าง ๆ ที่เคยทำมาตลอด"
+              subtitle="ประวัติการศึกษาและการทำงานของผมเอง"
               image="coin"
               justify="space-between"
               direction="column"
               hover
               icon_url=""
               icon_width="100%"
+              handleClick={toggleResume}
+
             />
           </div>
 

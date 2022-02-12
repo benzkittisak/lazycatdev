@@ -5,7 +5,6 @@ import SectionTitle from "../../components/section-title/section-title.component
 import InfoTitle from "../../components/info-title/info-title.component";
 
 import I_LINK from "../../assets/data/iLike";
-import EDUCATION_BACKGROUND from "../../assets/data/education-background";
 
 const AboutMe = () => {
   const toggleAbout = () => {
