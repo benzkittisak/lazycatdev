@@ -7,6 +7,7 @@ import SectionTitle from "../../components/section-title/section-title.component
 
 
 import AboutMe from "../about-me/about-me.component";
+import ContactPage from "../contact/contact.component";
 import ResumePage from "../resume/resume.component";
 
 
@@ -27,6 +28,7 @@ const HomePage = () => {
 
       <AboutMe/>
       <ResumePage/>
+      <ContactPage/>
     </div>
   );
 };
