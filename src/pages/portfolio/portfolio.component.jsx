@@ -46,9 +46,14 @@ const PortfolioPage = () => {
                 <div className="col-12">
                   <InfoTitle title="อื่น ๆ">
                     <p className="text-muted ls-1">
+                      ผมสามารถเขียน C++ , Javascript , Java ได้นิดหน่อย , HTML กับ CSS ถนัดมากที่สุด <br/>
+                      แล้วก็ยังเคยใช้ framework และ Library อื่น ๆ อีกนอกจาก React ได้แค่ Angular , Laravel และ Vue
+                    </p>
+                    <p className="text-muted ls-1">
                       ถ้าหากต้องการดูงานอื่น ๆ อีกสามารถเข้าไปดูได้ใน GitHub
                       ของผมเอง จิ้มที่ปุ่มด้านล่างได้เลยครับผม
                     </p>
+
                     <div className="btn-box">
                       <a
                         href="https://github.com/benzkittisak"

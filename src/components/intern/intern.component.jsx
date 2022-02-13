@@ -10,7 +10,7 @@ const Intern = () => {
           <div className="work-histor-title">
             <span className="work-year">{data.year}</span>
             <h5>{data.title}</h5>
-            <p className="desc text-muted">{data.desc}</p>
+            <p className="desc text-muted ls-1">{data.desc}</p>
           </div>
           <div className="work-history-image">
             {data.image.map((img, index) => (
