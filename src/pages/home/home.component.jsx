@@ -17,7 +17,7 @@ const HomePage = () => {
     <div className="home-page">
       <Header />
 
-      <div className=" my-5">
+      <div className="my-3">
         <div className="container main-screen">
           <SectionTitle title="Helloooo!!" />
           <div className="row bg-white">

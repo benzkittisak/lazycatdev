@@ -2,9 +2,13 @@
     .home-page{
         overflow-y: scroll;
     }
+
+    .main-screen{
+        height:200px;
+    }
 }
 
-@media (max-width:720px){
+@media (max-width:768px){
     .home-page{
         overflow-y: scroll;
 
@@ -42,6 +46,10 @@
     .about-me , .resume-page , .portfolio-page , .contact-page{
         width: 90%;
     }
+    .main-screen{
+        height:800px;
+        overflow-y: scroll;
+    }
 
-   
+
 }
