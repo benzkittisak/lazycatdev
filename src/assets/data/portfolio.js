@@ -55,6 +55,15 @@ const PORTFOLIO_DATA = [
     link_url: "https://bbgun-portfolio.herokuapp.com",
     github: "https://github.com/benzkittisak/lazycatdev.git",
   },
+  {
+    id: 8,
+    title: "Vue Project",
+    desc: "เว็บนี้เป็นโปรเจคของวิชา Javascript โดยที่อาจารย์ให้ใช้ VueJS กับ MongoDB ในการทำเป็นเว็บไซต์ที่พัฒนาเป็น Fullstack โดยที่ใช้ภาษา JavaScript ในการเขียน มีระบบของ Admin ด้วยแต่ว่าไม่ได้แคปหน้าจอมาให้ดูครับ",
+    images: "https://i3.fpic.cc/file/img-b1/2022/02/26/Screen-Shot-2565-02-26-at-11.28.03.md.png",
+    link_url: "",
+    github: "https://github.com/dictionarygroup1/project.git",
+  },
+  // 
 ];
 
 export default PORTFOLIO_DATA;

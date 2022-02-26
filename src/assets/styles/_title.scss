@@ -6,8 +6,8 @@
   position: relative;
   display: block;
 
-  &:last-child{
-      margin-bottom:0
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -38,37 +38,34 @@
       }
     }
 
-    .section-line-left{
-        &::before{
-            content: '';
-            border: 1px solid black;
-            background:white;
-            position: absolute;
-            width:35px;
-            height:35px;
-            left:20px;
-            z-index:2;
-        }
+    .section-line-left {
+      &::before {
+        content: "";
+        border: 1px solid black;
+        background: white;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 20px;
+        z-index: 2;
+      }
     }
 
-    .section-line-right{
+    .section-line-right {
       position: relative;
 
-        &::after{
-            content: '';
-            border: 1px solid black;
-            background:white;
-            position: absolute;
-            width:35px;
-            height:35px;
-            right:20px;
-            z-index:2;
-        }
 
-        
+      &::after {
+        content: "";
+        border: 1px solid black;
+        background: white;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        right: 20px;
+        z-index: 2;
+      }
     }
-
-
   }
 
   &-text {
