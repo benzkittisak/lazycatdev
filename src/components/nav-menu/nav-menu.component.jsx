@@ -9,7 +9,7 @@ const NavMenu = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light p-0">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light p-0">
       <div className="container-fluid">
         <Link
           className="navbar-brand d-flex justify-content-center align-items-center"

@@ -22,7 +22,7 @@ const BlockRight = () => {
             <MainBlock
               title="ทักษะ"
               subtitle="ดูได้จากผลงานที่เคยๆทำ มาเลยครับ"
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/pixel-pap.md.png"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976426484841480202/Icon_diploma.svg"
               justify="space-between"
               direction="column"
               icon_url=""
@@ -34,7 +34,7 @@ const BlockRight = () => {
             <MainBlock
               title="ติดต่อผม"
               subtitle="ช่องทางการติดต่อผมคลิกดูได้เลย"
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/pixel-phone.md.png"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976426894884995092/Icon_online_conference.svg"
               hover
               justify="space-between"
               direction="column"
@@ -50,7 +50,7 @@ const BlockRight = () => {
             <MainBlock
               title="แฟ้มสะสมผลงาน"
               subtitle="ถ้าอยากดูผลงานทั้งหมดที่ผมเคยทำมาตลอดเวลาหลายปี สามารถคลิกดูได้จากตรงนี้เลยครับผม"
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/pixel-port.md.png"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976427204500140032/Icon_back_to_school.svg"
               justify="space-between"
               direction="row"
               top="25%"
@@ -64,7 +64,7 @@ const BlockRight = () => {
             <MainBlock
               title="Project"
               subtitle="ดาวน์โหลดเว็บไซต์นี้ได้บน Github เยย"
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/pixel-github.md.png"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976427479533244416/Icon_test.svg"
               hover
               a_link
               justify="space-between"
@@ -79,7 +79,7 @@ const BlockRight = () => {
             <MainBlock
               title="ขอบคุณครับ"
               subtitle="ขอบคุณที่เข้ามารับชมและให้ความสนใจครับ"
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/pixel-heart.md.png"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976427613100834816/playing_Rubik.svg"
               justify="space-between"
               direction="column"
               icon_width="100%"

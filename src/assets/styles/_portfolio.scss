@@ -36,6 +36,12 @@
       p {
         letter-spacing: 1px;
       }
+      .port-image{
+          img{
+            border: 1px solid rgb(71, 66, 124);
+            box-shadow: 5px 5px 0 rgb(71, 66, 124);
+          }
+      }
     }
 
     .port-content-link {

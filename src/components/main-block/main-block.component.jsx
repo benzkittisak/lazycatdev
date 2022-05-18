@@ -38,7 +38,7 @@ const MainBlock = ({
           <img
             src={image}
             alt=""
-            style={{ position: "relative", marginTop: "20px", width: img_width ? img_width : "100%" }}
+            style={{ position: "relative", marginTop: "20px", width: img_width ? img_width : "100%" , display:"block", }}
           />
 
 

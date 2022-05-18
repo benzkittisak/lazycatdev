@@ -27,8 +27,8 @@ const BlockLeft = () => {
           <div className="col-12 mb-4">
             <MainBlock
               title="Helloooo !!!!"
-              subtitle="สวัสดีครับทุกคน ผมชื่อเบนซ์ ตอนนี้กำลังเรียนอยู่ที่ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี สาขา IT ชั้นปีที่ 3 เทอม 2"
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/pixel-computer.md.png"
+              subtitle="สวัสดีครับทุกคน ผมชื่อเบนซ์ ตอนนี้กำลังเรียนอยู่ที่ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี สาขา IT ชั้นปีที่ 4 เทอม 1"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976424138296148008/air_balloon.svg"
               justify="space-between"
               direction="row"
             />
@@ -38,7 +38,7 @@ const BlockLeft = () => {
             <MainBlock
               title="เกี่ยวกับฉัน"
               subtitle="ทำความรู้จักผมเพิ่มเติมได้จากที่นี่เลย"
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/2.md.png"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976424841903214622/read.svg"
               hover
               icon_url=""
               icon_width="100%"
@@ -52,7 +52,7 @@ const BlockLeft = () => {
             <MainBlock
               title="เรซูเม่"
               subtitle="ประวัติการศึกษาและการทำงานของผมเอง"
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/3effde4a6120f6260.md.png"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976425130240655360/collecting_jewelery.svg"
               justify="space-between"
               direction="column"
               hover
@@ -68,7 +68,7 @@ const BlockLeft = () => {
             <MainBlock
               title="BROWSER"
               subtitle={`${browserName} , Version : ${browserVersion}`}
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/4.md.png"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976428275813466162/landing_page_website.svg"
               icon_url=""
               icon_width="100%"
               justify="space-between"
@@ -80,7 +80,7 @@ const BlockLeft = () => {
             <MainBlock
               title="OS"
               subtitle={`${osName} , Version :  ${osVersion}`}
-              image="https://i3.fpic.cc/file/img-b1/2022/02/12/5.md.png"
+              image="https://cdn.discordapp.com/attachments/966965279466864664/976428475051286538/browser_tab_programming.svg"
               justify="space-between"
               direction="column"
               icon_url=""
