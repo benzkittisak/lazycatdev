@@ -43,7 +43,7 @@ const ResumePage = () => {
                 <InfoTitle title="ประวัติการศึกษา">
                   <ul className="edu-section-container">
                     {EDUCATION_BACKGROUND.map((item) => (
-                      <Education key={item.id} item={item}/>
+                      <Education key={item.id} item={item} />
                     ))}
                   </ul>
                 </InfoTitle>
@@ -55,7 +55,12 @@ const ResumePage = () => {
                 <InfoTitle title="ประวัติการเข้าฝึกงาน" />
               </div>
               <div className="col-lg-12">
-                <Intern/>
+                <Intern />
+              </div>
+              <div className="col-lg-12 text-center">
+                <a href="https://drive.google.com/file/d/17P-7zTSBTKSjtM803M7oAuLUpS8Ivo17/view?usp=sharing" target="_blank" className="resume-link">
+                  ดาวน์โหลด Resume
+                </a>
               </div>
             </div>
           </div>
