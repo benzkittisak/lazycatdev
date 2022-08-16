@@ -1,8 +1,22 @@
 import React from "react";
-
-import INTERN_DATA from "../../assets/data/intern";
+import { useTranslation } from "react-i18next";
 
 const Intern = () => {
+  const { t } = useTranslation();
+
+  const INTERN_DATA = [
+    {
+        id:1,
+        title:t("resume.content.experiences.first.title"),
+        image:[
+            'https://cdn.discordapp.com/attachments/966965279466864664/966979264299823124/IMG_20180829_121300.jpg',
+            'https://cdn.discordapp.com/attachments/966965279466864664/976431437505003530/IMG_20180829_121143.jpg',
+        ],
+        year:2019,
+        desc:t("resume.content.experiences.first.description")
+    }
+  ]
+
   return (
     <div className="work-history">
       {INTERN_DATA.map((data) => (

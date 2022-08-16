@@ -1,16 +1,19 @@
 import React from "react";
 import Draggable from "react-draggable";
+import { useTranslation } from "react-i18next";
 
 import SectionTitle from "../../components/section-title/section-title.component";
 import InfoTitle from "../../components/info-title/info-title.component";
 
-import I_LINK from "../../assets/data/iLike";
-
 const AboutMe = () => {
+
+  const { t } = useTranslation();
+
   const toggleAbout = () => {
     const aboutObject = document.querySelector("#about-me");
     aboutObject.style.display = "block";
   };
+
 
   const handleClick = () => {
     const documentObject = document.querySelector("#about-me");
@@ -31,7 +34,7 @@ const AboutMe = () => {
           <button onClick={() => handleClick()}>x</button>
         </div>
         <div className="handle">
-          <SectionTitle title="เกี่ยวกับฉัน" />
+          <SectionTitle title={t("about_me.title")} />
         </div>
 
         <div className="about-container">
@@ -47,28 +50,48 @@ const AboutMe = () => {
               </div>
               <div className="col-12">
                 <div className="about-header">
-                  <h2>กิตติศักดิ์ ปานเหลือ</h2>
+                  <h2>{t("about_me.content.name")}</h2>
                 </div>
               </div>
 
               <div className="col-12">
                 <div className="about-info">
                   <p className="text-muted">
-                    สวัสดีครับทุกคน ผมชื่อนายกิตติศักดิ์ ปานเหลือ
-                    ชื่อเล่นเบนซ์ครับ
-                    ตอนนี้กำลังศึกษาอยู่ที่มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ
-                    วิทยาเขตปราจีนบุรี คณะเทคโนโลยีและการจัดการอุตสาหกรรม
-                    สาขาเทคโนโลยีสารสนเทศ ชั้นปีที่ 4 แล้วครับ
+                  {t("about_me.content.aboutMe")}
                   </p>
 
-                  <InfoTitle title="สิ่งที่ชอบ">
+                  <InfoTitle title={t("about_me.content.favorites.title")}>
                     <ul>
-                      {I_LINK.map((item) => (
-                        <li key={item.id}>
-                          <p>{item.name}</p>
+                        <li >
+                          <p>{t("about_me.content.favorites.first")}</p>
                         </li>
-                      ))}
+                        <li >
+                          <p>{t("about_me.content.favorites.second")}</p>
+                        </li>
+                        <li >
+                          <p>{t("about_me.content.favorites.third")}</p>
+                        </li>
+                        <li >
+                          <p>{t("about_me.content.favorites.fourth")}</p>
+                        </li>
+                        <li >
+                          <p>{t("about_me.content.favorites.fifth")}</p>
+                        </li>
                     </ul>
+                  </InfoTitle>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="about-info">
+                  <InfoTitle title={t("about_me.content.videoIntroduce")}>
+                  <iframe 
+                  title="Video Introduce"
+                    src="https://drive.google.com/file/d/1Nfh3LMSgX8sw0H28_eayFoMBN4UxUEJx/preview" 
+                    width="100%" 
+                    height="300"
+                    allow="autoplay">
+
+                    </iframe>
                   </InfoTitle>
                 </div>
               </div>

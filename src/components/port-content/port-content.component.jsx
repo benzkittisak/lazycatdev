@@ -1,7 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import InfoTitle from "../../components/info-title/info-title.component";
 const PortContent = ({data}) => {
+
+  const {t} = useTranslation();
+
     return(
         <InfoTitle title={data.title} key={data.id}>
         <div className="container port-content-list">
@@ -11,7 +15,7 @@ const PortContent = ({data}) => {
               <div className="port-content-link">
                 {data.link_url ? (
                   <a href={data.link_url} target="_blank">
-                    ชมเว็บไซต์
+                   {t("button.go_website")}
                   </a>
                 ) : null}
 

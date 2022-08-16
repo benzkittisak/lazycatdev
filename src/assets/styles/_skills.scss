@@ -1,0 +1,46 @@
+.skills {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    overflow: hidden;
+    background: white;
+    z-index: 999;
+    border: 2px solid;
+    box-shadow: 3px 3px 0 black;
+  
+    .handle {
+      cursor: grab;
+    }
+  
+    &.active {
+      display: block;
+    }
+  
+    .about-container {
+      padding: 20px;
+      position: relative;
+      overflow-y: scroll;
+      height: 500px;
+      .about-profile {
+        display: block;
+        position: relative;
+        text-align: center;
+        img {
+          width:250px;
+          padding: 15px;
+          border-radius: 50%;
+          border: 1px solid;
+        }
+      }
+  
+      .about-header {
+        padding: 10px;
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+      }
+    }
+  }
+  

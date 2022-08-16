@@ -7,3 +7,13 @@ export const setActiveClass = (e) => {
 
     e.currentTarget.classList.add("active")
 }
+
+export const setActiveButtonClass = (e) => {
+    const filterButtons = document.querySelectorAll( ".lang" );
+
+    filterButtons.forEach(item => {
+        item.classList.remove("active")
+    })
+
+    e.currentTarget.classList.add("active")
+}

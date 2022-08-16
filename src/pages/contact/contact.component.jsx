@@ -1,5 +1,6 @@
 import React from "react";
 import Draggable from "react-draggable";
+import { useTranslation } from 'react-i18next'
 
 import SectionTitle from "../../components/section-title/section-title.component";
 import InfoTitle from "../../components/info-title/info-title.component";
@@ -7,6 +8,9 @@ import ContactNormal from "../../components/contact-normal/contact-normal.compon
 import ContactMap from "../../components/contact-map/contact-map.component";
 
 const ContactPage = () => {
+
+  const { t } = useTranslation();
+
   const toggleContact = () => {
     const aboutObject = document.querySelector("#contact");
     aboutObject.style.display = "block";
@@ -31,15 +35,15 @@ const ContactPage = () => {
           <button onClick={() => handleClick()}>x</button>
         </div>
         <div className="handle">
-          <SectionTitle title="ติดต่อ" />
+          <SectionTitle title={t("contact.title")} />
         </div>
 
         <div className="contact-container">
-          <InfoTitle title="ช่องทางการติดต่อ">
+          <InfoTitle title={t("contact.description")}>
             <ContactNormal />
           </InfoTitle>
 
-          <InfoTitle title="แผนที่">
+          <InfoTitle title={t("contact.map")}>
             <ContactMap />
           </InfoTitle>
         </div>

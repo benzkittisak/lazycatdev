@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import {
   browserName,
   browserVersion,
@@ -9,6 +10,8 @@ import {
 import MainBlock from "../../components/main-block/main-block.component";
 
 const BlockLeft = () => {
+  
+  const { t } = useTranslation();
 
   const toggleAbout = () => {
     const aboutObject = document.querySelector('#about-me')
@@ -26,8 +29,8 @@ const BlockLeft = () => {
         <div className="row ">
           <div className="col-12 mb-4">
             <MainBlock
-              title="Helloooo !!!!"
-              subtitle="สวัสดีครับทุกคน ผมชื่อเบนซ์ ตอนนี้กำลังเรียนอยู่ที่ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี สาขา IT ชั้นปีที่ 4 เทอม 1"
+              title={t("intro.title")}
+              subtitle={t("intro.description")}
               image="https://cdn.discordapp.com/attachments/966965279466864664/976424138296148008/air_balloon.svg"
               justify="space-between"
               direction="row"
@@ -36,8 +39,8 @@ const BlockLeft = () => {
 
           <div className="col-lg-6 mb-4">
             <MainBlock
-              title="เกี่ยวกับฉัน"
-              subtitle="ทำความรู้จักผมเพิ่มเติมได้จากที่นี่เลย"
+              title={t("about_me.title")}
+              subtitle={t("about_me.description")}
               image="https://cdn.discordapp.com/attachments/966965279466864664/976424841903214622/read.svg"
               hover
               icon_url=""
@@ -50,8 +53,8 @@ const BlockLeft = () => {
           </div>
           <div className="col-lg-6 mb-4">
             <MainBlock
-              title="เรซูเม่"
-              subtitle="ประวัติการศึกษาและการทำงานของผมเอง"
+              title={t("resume.title")}
+              subtitle={t("resume.description")}
               image="https://cdn.discordapp.com/attachments/966965279466864664/976425130240655360/collecting_jewelery.svg"
               justify="space-between"
               direction="column"

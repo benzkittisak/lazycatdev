@@ -1,0 +1,27 @@
+.lang-change-area{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+
+    button.lang{
+        border: unset;
+        background: none;
+        border-radius: 5px;
+        width: 40px;
+        transition: 200ms ease-in-out;
+        &:hover{
+            background: rgb(235, 235, 235);
+        }
+        &.active{
+            background: rgb(213, 213, 213);
+        }
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        
+    }
+}

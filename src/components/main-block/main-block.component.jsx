@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const MainBlock = ({
   title,
@@ -15,6 +16,9 @@ const MainBlock = ({
   img_width,
   top
 }) => {
+
+  const { t } = useTranslation();
+
   return (
     <div
       className="main-content-block"
@@ -46,11 +50,11 @@ const MainBlock = ({
           <div className="block-hover" style={{top: top ? '25%' : ''}}>
             {a_link ? (
               <a href={icon_url} className="block-hover-link">
-                ข้อมูลเพิ่มเติม
+                {t("button.read_more")}
               </a>
             ) : (
               <button onClick={handleClick}  to="#" className="block-hover-link">
-                ข้อมูลเพิ่มเติม
+                {t("button.read_more")}
               </button>
             )}
           </div>

@@ -1,0 +1,148 @@
+{
+    "intro": {
+        "title":"Helloooo !!!!",
+        "description": "Hello everyone! , My name's Benz. Now I'm studying in Bechelor of Science in Information Technology at King Mongkut's University of Technology North Bangkok."
+    }
+    ,
+    "about_me":{
+        "title":"About me",
+        "description":"Find more about me in HERE !",
+        "content":{
+            "name":"KITTISAK PANLUEA",
+            "aboutMe":"Hello everyone my name is Kittisak panluea but you can call me Benz. I've been studying in Bechelor of Science in Information Technology at King Mongkut's University of Technology North Bangkok for 4 years and now.",
+            "favorites":{
+                "title":"My favorites",
+                "first":"Learn new things",
+                "second":"Coding",
+                "third":"Cat",
+                "fourth":"Dog",
+                "fifth":"Listen music"
+            },
+            "videoIntroduce":"Introduce My Self"
+        }
+    },
+    "resume":{
+        "title":"My Resume",
+        "description":"Education history & Works experiences",
+        "content": {
+            "education": {
+                "title":"My Education History",
+                "first":{
+                    "year":"2012-2015",
+                    "school_name":"Sichonkunathanvittaya School",
+                    "qualification":"Junior High School"
+                },
+                "second":{
+                    "year":"2017-2019",
+                    "school_name":"Sichon Technology Commercial Collage",
+                    "qualification":"Certificate of Technical Vocation"
+                },
+                "third":{
+                    "year":"2019-Present",
+                    "school_name":"King Mongkut's University of Technology North Bangkok.",
+                    "qualification":"B.S. in Information Technology"
+                }
+            },
+            "experiences":{
+                "title":"Work History",
+                "first":{
+                    "year":"2019",
+                    "title":"IT Support (Internship)",
+                    "description":"I was assigned to work as IT Support at Sichonkunathanvittaya School. My duty is to fix some computers, Install OS, Building computers, Maintain the School's website, Along with teaching students and deliver a documents."
+                }
+            }
+        }
+    },
+    "skill":{
+        "title":"Skills",
+        "description":"All of my works are here! Check its out!",
+        "content": "Studying"
+    },
+    "contact":{
+        "title":"Contacts",
+        "description":"All of my contacts are here! Click me!",
+        "content":{
+            "header":"Contacts",
+            "phone":{
+                "title":"Phone number",
+                "phone_number":"065-0757849"
+            },
+            "email":{
+                "title":"Email",
+                "email":"kittisak.panluea@email.kmutnb.ac.th or benzkittisak2017@outlook.com"
+            },
+            "facebook":{
+                "title":"Facebook",
+                "facebook_url":"https://www.facebook.com/benzkittisakPL"
+            },
+            "line":{
+                "title":"Line",
+                "line_id":"benzbco"
+            }
+        },
+        "map":"Map"
+    },
+    "portfolio": {
+        "title":"Portfolio",
+        "description":"If you want to see all of my works, Click here!",
+        "project1":{
+            "title":"Sichonkunathanvittaya School's Website",
+            "description":"I was assigned to develop Sichonkunathanvittaya School's Website. Consists of designing and developing."
+        },
+        "project2":{
+            "title":"Thanomsrisuksa School's Website",
+            "description":"I was assigned to develop Thanomsrisuksa School's Website. Consists of designing and developing."
+        },
+        "project3": {
+            "title":"Plant E-Com 1",
+            "description":"This was created to refresh my React skill. Because I didn't code it for a long time :D"
+        },
+        "project4": {
+            "title":"Plant E-Com 2",
+            "description":"This is an Adjusted version of Plant E-Com 1."
+        },
+        "project5":{
+            "title":"Tracos Traveling",
+            "description":"Trying something new for myself with new types and styles that I haven't done."
+        },
+        "project6":{
+            "title":"Portfolio Website Training Program",
+            "description":"This project is from my Information Technology Project subjects. The project itself is for people who want to learn how to create Portfolio's website. Which I seperated it in different parts on Youtube."
+        },
+        "project7":{
+            "title":"This Website",
+            "description":"Well... I mean you looking at it LOL"
+        },
+        "project8":{
+            "title":"Vue Project",
+            "description":"This project is from my JavaScript Development subjects. I was assigned to develop with VueJS and MongoDB"
+        },
+        "other":{
+            "title":"Others",
+            "description":"Looking for more of my works? If yes you can check on my Github Here!"
+        }
+    },
+    "project":{
+        "title": "This Website",
+        "description":"You can download this Portfolio's website here!"
+    },
+    "thank_you":{
+        "title":"Thank you so much",
+        "description":"Thank you for your interested."
+    },
+    "button" :{
+        "read_more":"Read more",
+        "github":"GitHub",
+        "download":"Download Resume",
+        "go_website":"Go to Website"
+    },
+    "window_title":{
+        "aboutMe": "About Me",
+        "resume":"Resume",
+        "skill":"Skills",
+        "contact":"Contacts",
+        "portfolio":"Portfolio"
+        
+    }
+
+}

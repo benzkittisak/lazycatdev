@@ -1,22 +1,22 @@
 const I_LIKE = [
     {
-        id:1,
+        id:0,
         name:'เรียนรู้สิ่งใหม่ ๆ'
     },
     {
-        id:2,
+        id:1,
         name:'เขียน code'
     },
     {
-        id:3,
+        id:2,
         name:'แมว'
     },
     {
-        id:4,
+        id:3,
         name:'หมา'
     },
     {
-        id:5,
+        id:4,
         name:'ฟังเพลง'
     },
 ];
