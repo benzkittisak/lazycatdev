@@ -9,23 +9,31 @@ const ThemeToggle = () => {
     <div className="input-group">
       <ThemeContext.Consumer>
         {({ changeTheme }) => (
-          <div
-            class="form-check form-switch"
-            onClick={() => {
-              setDarkMode(!darkMode);
-              changeTheme(darkMode ? themes.light : themes.dark);
-            }}
-          >
-            <input
-              class="form-check-input"
-              type="checkbox"
-              role="switch"
-              id="flexSwitchCheckDefault"
-            />
-            {/* <label class="form-check-label" for="flexSwitchCheckDefault">
+          <>
+           {darkMode ? 
+            <img className="icon-mode" src="https://cdn.discordapp.com/attachments/966965279466864664/1011266011380584499/moon.svg" alt="" />
+           : 
+           <img className="icon-mode" src="https://cdn.discordapp.com/attachments/966965279466864664/1011266011716124732/sun.svg" alt="" />
+           }
+            <div
+              class="form-check form-switch"
+              onClick={() => {
+                setDarkMode(!darkMode);
+                changeTheme(darkMode ? themes.light : themes.dark);
+              }}
+            >
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+              />
+
+              {/* <label class="form-check-label" for="flexSwitchCheckDefault">
               Default switch checkbox input
             </label> */}
-          </div>
+            </div>
+          </>
         )}
       </ThemeContext.Consumer>
     </div>
