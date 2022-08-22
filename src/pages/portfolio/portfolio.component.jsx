@@ -48,8 +48,8 @@ const PortfolioPage = () => {
       id: 5,
       title: t("portfolio.project5.title"),
       desc: t("portfolio.project5.description"),
-      images: "https://i3.fpic.cc/file/img-b1/2022/02/12/Screen-Shot-2565-02-12-at-21.53.14.md.png",
-      link_url: "https://bbgun-travel.herokuapp.com",
+      images: "https://cdn.discordapp.com/attachments/966965279466864664/1011262814712758342/Screen_Shot_2565-08-22_at_20.17.11.png",
+      link_url: "https://tracos.lazydev.fun/",
       github: "https://github.com/benzkittisak/tracos.git",
     },
     {
@@ -65,7 +65,7 @@ const PortfolioPage = () => {
       title: t("portfolio.project7.title"),
       desc: t("portfolio.project7.description"),
       images: "https://cdn.discordapp.com/attachments/966965279466864664/976438782201069598/Screen_Shot_2565-05-18_at_17.58.57.png",
-      link_url: "https://bbgun-portfolio.herokuapp.com",
+      link_url: "https://lazydev.fun/",
       github: "https://github.com/benzkittisak/lazycatdev.git",
     },
     {

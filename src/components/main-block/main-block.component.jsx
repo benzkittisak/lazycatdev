@@ -21,7 +21,7 @@ const MainBlock = ({
 
   return (
     <div
-      className="main-content-block"
+      className={`main-content-block ${hover ? 'block-hover' : ''}`}
       style={{
         width: width,
         justifyContent: justify,

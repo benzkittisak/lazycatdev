@@ -1,5 +1,7 @@
 @import "./variable";
 
+@import './dark';
+
 .h-20 {
   height: 20px;
 }
@@ -77,6 +79,16 @@
     background: black;
     color: white;
   }
+}
+
+.input-group {
+  align-items: center;
+justify-content: end;
+}
+
+.form-check-input:checked {
+  background-color: #fd850d !important;
+  border-color: #fd850d !important;
 }
 
 @import "./about-me";

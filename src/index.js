@@ -4,20 +4,24 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import './langConfig';
+import "./langConfig";
 
 // Import Router
 import { BrowserRouter } from "react-router-dom";
+
+// Theme Wrapper
+import ThemeWrapper from "./layouts/theme-wrapper.component";
 
 // bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
-
+  <ThemeWrapper>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-,
+  </ThemeWrapper>,
+
   document.getElementById("root")
 );
 

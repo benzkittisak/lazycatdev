@@ -1,0 +1,228 @@
+.dark {
+  ::-webkit-scrollbar-track {
+    background-color: $dark-theme-color;
+  }
+
+  .home-page {
+    background: $dark-theme-color;
+    background-image: linear-gradient(
+        90deg,
+        $dark-theme-color 50%,
+        transparent 0
+      ),
+      linear-gradient($dark-theme-color-lang 50%, transparent 0);
+    background-size: 6px 6px;
+  }
+
+  .bg-white {
+    background-color: $dark-theme-color-third !important;
+  }
+
+  .bg-light {
+    background-color: black !important;
+  }
+  .navbar-light {
+    .navbar-brand {
+      color: $dark-theme-color-secondary;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $dark-theme-color-secondary;
+
+          &:hover {
+            color: $dark-theme-color-secondary-hover;
+          }
+        }
+      }
+    }
+  }
+  .Dropdown-placeholder.is-selected {
+    color: white;
+  }
+  .Dropdown-menu {
+    background-color: $dark-theme-color-lang;
+    border-color: $dark-theme-color-lang;
+    .Dropdown-option {
+      color: white;
+
+      &:hover {
+        background-color: $dark-theme-color;
+        color: white;
+        border-color: $dark-theme-color;
+      }
+    }
+  }
+
+  .main-screen {
+    .section-title {
+      background-color: $dark-theme-color;
+
+      .section-title-text {
+        h2 {
+          background-color: $dark-theme-color;
+          color: $dark-theme-color-secondary;
+        }
+      }
+
+      .section-line-left,
+      .section-line-right {
+        i {
+          background-color: $dark-theme-color-secondary;
+        }
+      }
+
+      .section-line-left::before,
+      .section-line-right::after {
+        border-color: $dark-theme-color-lang;
+        background: $dark-theme-color-lang;
+      }
+    }
+
+    .main-content {
+      &-block {
+        background: #505050;
+
+        .block-header {
+          .block-title {
+            h4 {
+              color: rgb(201, 201, 201);
+            }
+          }
+        }
+
+        .block-image {
+          img {
+            filter: brightness(0) invert(1);
+          }
+
+          .block-hover {
+            color: white;
+            button {
+              color: white;
+
+              &:hover {
+                border-color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .block-title {
+    color: $dark-theme-color-secondary-hover;
+  }
+
+  .block-sub-title {
+    color: $dark-theme-color-secondary;
+  }
+}
+
+// Section
+.dark {
+  .drag-close {
+    button {
+      color: $dark-theme-color-secondary-hover;
+    }
+  }
+
+  .handle {
+    .section-title {
+      background-color: $dark-theme-color;
+      .section-header {
+        .section-title-text {
+          h2 {
+            background-color: $dark-theme-color;
+            color: $dark-theme-color-secondary;
+          }
+        }
+
+        .section-line-left,
+        .section-line-right {
+          i {
+            background-color: $dark-theme-color-secondary;
+          }
+        }
+
+        .section-line-left::before,
+        .section-line-right::after {
+          border-color: $dark-theme-color-lang;
+          background: $dark-theme-color-lang;
+        }
+      }
+    }
+  }
+}
+
+//  Container
+.dark {
+  .about-container,
+  .portfolio-container,
+  .resume-container {
+    background-color: $dark-theme-color-lang;
+  }
+
+  .about-container,
+  .portfolio-container,
+  .resume-container {
+    .about-header {
+      h2 {
+        color: #a8a8a8;
+      }
+    }
+    .about-info {
+      &-title {
+        color: #a8a8a8;
+      }
+    }
+  }
+
+  .resume-container {
+    .work-histor-title {
+      h5 {
+        color: #a8a8a8;
+      }
+    }
+
+    .resume-link {
+      border-color: white;
+      color: white;
+
+      &:hover {
+        border-color: $dark-theme-color;
+      }
+    }
+  }
+}
+
+// Buttons
+.dark {
+  .port-content-link {
+    a {
+      color: $dark-theme-color-secondary !important;
+      &.github {
+        border-color: #7a7abc !important;
+        color: #7a7abc !important;
+
+        &:hover {
+          background-color: #7a7abc !important;
+        }
+      }
+      &:hover {
+        color: $dark-theme-color-lang !important;
+        background-color: $dark-theme-color-secondary-hover !important;
+      }
+    }
+  }
+
+  a.btn-github {
+    border-color: #7a7abc !important;
+    color: #7a7abc !important;
+
+    &:hover {
+      background-color: #7a7abc !important;
+    }
+  }
+}

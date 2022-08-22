@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import { HomeIcon } from "@heroicons/react/solid";
 import { useTranslation } from "react-i18next";
 
+
 import Dropdown from "react-dropdown";
 
 import "react-dropdown/style.css";
+import ThemeToggle from "../theme-toggle/theme-toggle.component";
 
 const NavMenu = () => {
   const { t, i18n } = useTranslation();
@@ -66,6 +68,8 @@ const NavMenu = () => {
               </Link>
             </li>
           </ul>
+
+          <ThemeToggle/>
 
           <div className="lang-change-area">
             <Dropdown
