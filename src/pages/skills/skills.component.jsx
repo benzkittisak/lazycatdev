@@ -39,6 +39,7 @@ const Skills = () => {
 
   return (
     <Draggable
+    bounds="parent"
       handle=".handle"
       position={null}
       defaultPosition={{ x: -400, y: -100 }}
@@ -62,7 +63,7 @@ const Skills = () => {
                     <ul>
                       {content.programingAndnon.map((data) => (
                         <li>
-                          <p key={data.length}>{data}</p>
+                          <p key={data}>{data}</p>
                         </li>
                       ))}
                     </ul>
@@ -75,7 +76,7 @@ const Skills = () => {
                     <ul>
                       {content.framework.map((data) => (
                         <li>
-                          <p key={data.length}>{data}</p>
+                          <p key={data}>{data}</p>
                         </li>
                       ))}
                     </ul>
@@ -88,7 +89,7 @@ const Skills = () => {
                     <ul>
                       {content.studying.lists.map((data) => (
                         <li>
-                          <p key={data.length}>{data}</p>
+                          <p key={data}>{data}</p>
                         </li>
                       ))}
                     </ul>

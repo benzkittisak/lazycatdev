@@ -1,8 +1,10 @@
 .home-page {
   position: relative;
-  height:100vh;
+  height: 100vh;
+  background-attachment: fixed;
   background: url("../images/pixels-dark.svg");
-
+  margin-top:40px;
+  overflow: hidden;
   .main-screen {
     border: 2px solid black;
   }

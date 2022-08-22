@@ -25,3 +25,17 @@
         
     }
 }
+
+.Dropdown-control {
+    border: unset;
+    padding: 3px 25px 3px 10px;
+    background: unset;
+    text-transform: uppercase;
+}
+
+.Dropdown-menu {
+    .Dropdown-option::before {
+
+        background-image:url('https://cdn.discordapp.com/attachments/966965279466864664/976438782201069598/Screen_Shot_2565-05-18_at_17.58.57.png');
+    }
+}

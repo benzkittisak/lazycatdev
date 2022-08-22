@@ -24,6 +24,7 @@ const ContactPage = () => {
 
   return (
     <Draggable
+    bounds="parent"
       handle=".handle"
       position={null}
       defaultPosition={{ x: -300, y: -300 }}

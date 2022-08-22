@@ -44,6 +44,7 @@ const ResumePage = () => {
 
   return (
     <Draggable
+    bounds="parent"
       handle=".handle"
       position={null}
       defaultPosition={{ x: -400, y: -100 }}

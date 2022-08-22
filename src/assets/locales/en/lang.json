@@ -124,10 +124,10 @@
     },
     "project":{
         "title": "This Website",
-        "description":"You can download this Portfolio's website here!"
+        "description":"You can download this Project's here!"
     },
     "thank_you":{
-        "title":"Thank you so much",
+        "title":"Thank you",
         "description":"Thank you for your interested."
     },
     "button" :{
