@@ -81,7 +81,7 @@ const ResumePage = () => {
                 <Intern />
               </div>
               <div className="col-lg-12 text-center">
-                <a href="https://drive.google.com/file/d/17P-7zTSBTKSjtM803M7oAuLUpS8Ivo17/view?usp=sharing" target="_blank" className="resume-link">
+                <a href="https://drive.google.com/file/d/10VU0vc7Y4A9BnchrMau-GRBmgbY6z_nb/view?usp=sharing" target="_blank" className="resume-link">
                   {t("button.download")}
                 </a>
               </div>
